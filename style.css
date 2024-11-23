@@ -1,0 +1,28 @@
+.card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    
+    background-image: url(Noxus.jpg) ;
+    background-size: cover;
+    border-radius: 24px;
+    color: rgb(20, 14, 14);
+    border-bottom: 6px solid red;
+    
+}
+.Darius{
+    margin: 30px;
+    border: 1px solid red;
+    border-radius: 24px;
+}
+.Darius:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+}
+.text{
+    text-shadow: 2px 2px 5px rgb(54, 10, 10);
+}
+
